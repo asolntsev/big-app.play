@@ -157,4 +157,10 @@ public class Hello11111111111111111111111111111111111 extends Controller {
       }
     });
   }
+
+  private static class Helper {
+    public void say() {
+      System.out.println("Hello");
+    }
+  }
 }

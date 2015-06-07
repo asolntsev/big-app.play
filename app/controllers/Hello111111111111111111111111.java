@@ -14,7 +14,7 @@ public class Hello111111111111111111111111 extends Controller {
     render("Application/hello.html", debug());
   }
   
-  public static Integer debug() {return null;}
+  private static Integer debug() {return null;}
   
   private static void sort(List<Object> list) {
     Collections.sort(list, new Comparator<Object>() {
@@ -156,5 +156,11 @@ public class Hello111111111111111111111111 extends Controller {
         return o2.hashCode() - o2.hashCode();
       }
     });
+  }
+
+  private static class Helper {
+    public void say() {
+      System.out.println("Hello");
+    }
   }
 }
