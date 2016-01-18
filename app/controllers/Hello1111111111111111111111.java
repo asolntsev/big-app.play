@@ -11,7 +11,7 @@ public class Hello1111111111111111111111 extends Controller {
 
   public static void hello() {
 //    System.out.println("tere");
-    render("Application/hello.html", debug());
+    render(debug());
   }
   
   private static Integer debug() {return null;}

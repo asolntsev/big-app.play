@@ -11,7 +11,7 @@ public class Hello111111111111111111111111111111111111111111111111 extends Contr
 
   public static void hello() {
 //    System.out.println("tere");
-    render("Application/hello.html", debug());
+    render(debug());
   }
   
   private static Long debug() {return null;}
