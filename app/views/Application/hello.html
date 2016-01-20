@@ -4,3 +4,25 @@
 <h1>
   Hello ${controllers.Application.name() ?: 'Play!'}
 </h1>
+
+<table border="1">
+  #{list items:1..2000, as: 'i'}
+    <tr>
+      <td>${i}.</td>
+      <td><a href="@{Application.hello}">link</a></td>
+      <td><a href="@{Hello.hello}">link</a></td>
+      <td><a href="@{Hello1.hello}">link</a></td>
+      <td><a href="@{Hello11.hello}">link</a></td>
+      <td><a href="@{Hello111.hello}">link</a></td>
+      <td><a href="@{Hello1111.hello}">link</a></td>
+      <td><a href="@{Hello11111.hello}">link</a></td>
+      <td><a href="@{Hello111111.hello}">link</a></td>
+      <td><a href="@{Hello1111111.hello}">link</a></td>
+      <td><a href="@{Hello11111111.hello}">link</a></td>
+      <td><a href="@{Hello111111111.hello}">link</a></td>
+      <td><a href="@{Hello1111111111.hello}">link</a></td>
+      <td><a href="@{Hello11111111111.hello}">link</a></td>
+      <td><a href="@{Hello111111111111.hello}">link</a></td>
+    </tr>
+  #{/list}
+</table>
