@@ -4,6 +4,8 @@
 
 # Home page
 GET     /                                       Application.index
+GET     /submit                                 Application.submit
+GET     /submit2                                Application.submit2
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
