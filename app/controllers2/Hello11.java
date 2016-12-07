@@ -14,7 +14,7 @@ public class Hello11 extends Controller {
     render("Application/hello.html", debug());
   }
   
-  private static Integer debug() {return null;}
+  private static Object debug() {return util.Util.get();}
   
   private static void sort(List<Object> list) {
     Collections.sort(list, new Comparator<Object>() {
