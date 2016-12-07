@@ -6,8 +6,8 @@ import play.jobs.Job;
 import play.jobs.OnApplicationStart;
 import play.templates.FastTags;
 
-@Every("1s")
-@OnApplicationStart(async = true)
+//@Every("1s")
+//@OnApplicationStart(async = true)
 public class JobAskingClasses extends Job {
   @Override
   public void doJob() throws Exception {
